@@ -9,6 +9,8 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install",
     "startServer": "node server/index.js",
     "devServer": "nodemon server/index.js"
   },
